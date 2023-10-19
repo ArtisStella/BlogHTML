@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Open Blog</title>
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <aside class="navbar">
+        <!--NAV HEADER-->
+        <header class="nav-header">
+          <h1>Open Blog</h1>
+          <p>Mar 27, 2022</p>
+        </header>
+
+        <ul
+          style="list-style-type: none; margin: 0; padding: 0; margin-top: 3rem"
+        >
+          <!--NAV ITEM-->
+
+          <!--HOME ITEM-->
+          <li class="navitem active">
+            <a href="index.html">
+              <!--ICON-->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="bi bi-house-door"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"
+                />
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+
+          <!--ABOUT ITEM-->
+          <li class="navitem">
+            <a href="about.html">
+              <!--ICON-->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="bi bi-person"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"
+                />
+              </svg>
+              <span>About</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <main class="content">
+        <section class="article-list">
+          <!-- ARTICLE 1 -->
+          <article class="image-article">
+            <header class="article-header">
+              <!-- IMAGE -->
+              <div class="article-image">
+                <a href="topPLBlog.html">
+                  <img
+                    src="assets/img/technologyBG.jpg"
+                    width="800"
+                    height="534"
+                    loading="lazy"
+                  />
+                </a>
+              </div>
+
+              <!-- DETAILS -->
+              <div class="article-details">
+                <header class="article-category">
+                  <a> Test </a>
+                  <a> Test Again. </a>
+                </header>
+
+                <div class="article-title-wrapper">
+                  <h2 class="article-title">
+                    <a href="topPLBlog.html">
+                      The Top 3 Choices for Your First Programming Language
+                    </a>
+                  </h2>
+                  <h3 class="article-subtitle">
+                    Choose your first language, learn it well, then proceed to
+                    the next one. <br />
+                    By Ann Adaya
+                  </h3>
+                </div>
+
+                <footer class="article-time">
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-calendar-time"
+                      width="56"
+                      height="56"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z"></path>
+                      <path
+                        d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4"
+                      ></path>
+                      <circle cx="18" cy="18" r="4"></circle>
+                      <path d="M15 3v4"></path>
+                      <path d="M7 3v4"></path>
+                      <path d="M3 11h16"></path>
+                      <path d="M18 16.496v1.504l1 1"></path>
+                    </svg>
+                    <time class="article-time--published">Apr 14, 2020</time>
+                  </div>
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-clock"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z"></path>
+                      <circle cx="12" cy="12" r="9"></circle>
+                      <polyline points="12 7 12 12 15 15"></polyline>
+                    </svg>
+                    <time class="article-time--reading"> 6 minute read </time>
+                  </div>
+                </footer>
+              </div>
+            </header>
+          </article>
+
+          <!-- ARTICLE 2 -->
+          <article class="">
+            <header class="article-header">
+              <div class="article-details">
+                <div class="article-title-wrapper">
+                  <h2 class="article-title">
+                    <a href="walrusBlog.html"
+                      >What Is the Walrus Operator in Python?</a
+                    >
+                  </h2>
+
+                  <h3 class="article-subtitle">
+                    Learn how to condense your code with the new operator
+                    released in version 3.8 <br />
+                    By Jonathan Hsu
+                  </h3>
+                </div>
+
+                <footer class="article-time">
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-calendar-time"
+                      width="56"
+                      height="56"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z"></path>
+                      <path
+                        d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4"
+                      ></path>
+                      <circle cx="18" cy="18" r="4"></circle>
+                      <path d="M15 3v4"></path>
+                      <path d="M7 3v4"></path>
+                      <path d="M3 11h16"></path>
+                      <path d="M18 16.496v1.504l1 1"></path>
+                    </svg>
+                    <time class="article-time--published">Nov 11, 2019</time>
+                  </div>
+
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-clock"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z"></path>
+                      <circle cx="12" cy="12" r="9"></circle>
+                      <polyline points="12 7 12 12 15 15"></polyline>
+                    </svg>
+
+                    <time class="article-time--reading">2 minute read</time>
+                  </div>
+                </footer>
+              </div>
+            </header>
+          </article>
+
+          <!-- ARTICLE 3 -->
+          <article class="has-image">
+            <header class="article-header">
+              <div class="article-image">
+                <a href="featurePythonBlog.html">
+                  <img src="assets/img/laptopCoffee.jpg" />
+                </a>
+              </div>
+
+              <div class="article-details">
+                <header class="article-category">
+                  <a style="background-color: #2a9d8f; color: #fff"> Python </a>
+                </header>
+                <div class="article-title-wrapper">
+                  <h2 class="article-title">
+                    <a href="featurePythonBlog.html"
+                      >5 Advanced Features of Python and How to Use Them</a
+                    >
+                  </h2>
+
+                  <h3 class="article-subtitle">
+                    5 common advanced topics/features in Python that you should
+                    learn <br> By Artturi Jalli
+                  </h3>
+                </div>
+
+                <footer class="article-time">
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-calendar-time"
+                      width="56"
+                      height="56"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z"></path>
+                      <path
+                        d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4"
+                      ></path>
+                      <circle cx="18" cy="18" r="4"></circle>
+                      <path d="M15 3v4"></path>
+                      <path d="M7 3v4"></path>
+                      <path d="M3 11h16"></path>
+                      <path d="M18 16.496v1.504l1 1"></path>
+                    </svg>
+                    <time class="article-time--published">May 31, 2020</time>
+                  </div>
+
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-clock"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z"></path>
+                      <circle cx="12" cy="12" r="9"></circle>
+                      <polyline points="12 7 12 12 15 15"></polyline>
+                    </svg>
+                    <time class="article-time--reading"> 4 minute read </time>
+                  </div>
+                </footer>
+              </div>
+            </header>
+          </article>
+        </section>
+
+        <!-- COPYRIGHT FOOTER -->
+        <footer class="site-footer">
+          <section class="copyright">© 2020 - 2022 Open Blog</section>
+        </footer>
+      </main>
+
+      <aside class="right-aside"></aside>
+    </div>
+  </body>
+</html>
