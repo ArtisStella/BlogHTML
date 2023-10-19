@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Open Blog</title>
+  </head>
+  <body>
+    <div class="body-wrapper ">
+      <aside class="navbar">
+        <!--NAV HEADER-->
+        <header class="nav-header">
+          <h1>Open Blog</h1>
+          <p>Mar 27, 2022</p>
+        </header>
+
+        <ul
+          style="list-style-type: none; margin: 0; padding: 0; margin-top: 3rem"
+        >
+          <!--NAV ITEM-->
+
+          <!--HOME ITEM-->
+          <li class="navitem active">
+            <a href="index.html">
+              <!--ICON-->
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+              </svg>
+              <span>Home</span>
+            </a>
+          </li>
+
+          <!--ABOUT ITEM-->
+          <li class="navitem">
+            <a href="about.html">
+              <!--ICON-->
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"
+                />
+              </svg>
+              <span>About</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <main class="content">
+        <article class="image-article main-article"> 
+            
+            <header class="article-header">
+              <!-- IMAGE -->
+              <div class="article-image">
+                <a href="topPLBlog.html">
+                  <img src="assets/img/laptopCoffee.jpg" width="800" height="534" loading="lazy">
+                </a>
+              </div>
+    
+              <!-- DETAILS -->
+              <div class="article-details">
+               <header class="article-category">
+                  <a> Python </a>
+               </header>
+
+               <div class="article-title-wrapper">
+                <h2 class="article-title">
+                  <a href="topPLBlog.html"> 5 Advanced Features of Python and How to Use Them </a>
+                </h2>
+                <h3 class="article-subtitle">
+                    5 common advanced topics/features in Python that you should learn <br>
+                    By Artturi Jalli
+                </h3>
+               </div>
+
+               <footer class="article-time">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"></path>
+                    <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4"></path>
+                    <circle cx="18" cy="18" r="4"></circle>
+                    <path d="M15 3v4"></path>
+                    <path d="M7 3v4"></path>
+                    <path d="M3 11h16"></path>
+                    <path d="M18 16.496v1.504l1 1"></path>
+                  </svg>
+                  <time class="article-time--published">May 31, 2020</time>
+                </div>
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"></path>
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <polyline points="12 7 12 12 15 15"></polyline>
+                  </svg>
+                  <time class="article-time--reading"> 4 minute read </time>
+                </div>
+               </footer>
+              </div>
+            </header>
+
+            <div class="article-content">
+                <p>Python is a popular and beautiful programming language used in data science, web development, maths, and so on. In addition to learning the basics, there are lots of easy-to-understand advanced Python features you need to know.</p>
+                <p>By advanced, I don't mean hard. These topics are really important but not crucial when learning the basics of Python.</p>    
+                <p>Today I'm going to show 5 common advanced topics/features in Python that you should learn.</p>
+                <p>I hope you enjoy it.</p>
+
+
+                <h2 id="lambdaFunc">Lambda Functions</h2>
+                <p>In Python, a lambda function is an anonymous function (a nameless function) that can take any number of arguments. It can only contain a single expression.</p>
+                <p>Lambda functions are useful when the functionality is needed for a short while. In such a case, you don't want to waste resources by creating a separate method.</p>
+                <p>Let's filter a list of numbers using the built-in filter() method. It takes two parameters:</p>
+                <ul>
+                    <li>A filtering function (a lambda function in this case)</li>
+                    <li>A list to be filtered</li>
+                </ul>
+                <p>As an example, let's filter even numbers:</p>
+                <img src="assets/img/Code Snippets/lambdaExampleCode.png">
+                <p>Output:</p>
+                <img src="assets/img/Code Snippets/lambdaExampleOut.png">
+
+                
+                <h2 id="mapFunc">Mapping</h2>
+                <p>Mapping in Python is a convenient way to transform a group of values into another. To map items in Python, use the built-in map() function.</p>
+                <p>The map() function is a replacement to a for a loop. It applies a function for each element of e.g. a list. The map() function accepts two arguments:</p>
+                <ul>
+                    <li>A function that is applied for each element in the list (for example a lambda expression)</li>
+                    <li>A list on which to operate</li>
+                </ul>
+                <p>The map() function returns is a map object. This can easily be converted back to e.g. a list with the list() function.</p>
+                <p>To demonstrate this, let's square a list of numbers:</p>
+                <img src="assets/img/Code Snippets/mapExample.png">
+                <p>Output:</p>
+                <img src="assets/img/Code Snippets/mapOutput.png">
+            
+                
+                <h2 id="filterFunc">Filtering</h2>
+                <p>The filter() function, as the name suggests, can be used to filter elements based on a specific condition. The filter function takes two arguments:</p>
+                <ul>
+                    <li>A lambda expression i.e. a function that is executed for each element in the list</li>
+                    <li>A list on which to operate</li>
+                </ul>
+                <p>For instance, let's filter even numbers from a list:</p>
+                <img src="assets/img/Code Snippets/filterExample.png">
+                <p>Output:</p>
+                <img src="assets/img/Code Snippets/filterOutput.png">
+
+                
+                <h2 id="iterFunc">Itertools</h2>
+                <p>An iterator is an object that is used to iterate over iterable objects like lists, tuples, dictionaries, etc.</p>
+                <p>Itertools is a really useful module in Python. It lets you perform memory-efficient tasks on the iterators (such as lists, dictionaries, tuples, etc.).</p>
+                
+                <h3 id="iterSub1">Generate Infinite Sequences with Itertools</h3>
+                <p>Using Itertools it is programmatically possible to generate an infinite sequence of evenly spaced numbers using the count() method. As such, the code below creates an infinite sequence of numbers 0, 1, 2, 3, ...</p>
+                <img src="assets/img/Code Snippets/iterExample1.png">
+                <p>Output:</p>
+                <img src="assets/img/Code Snippets/iterExample1Output.png">
+
+                <h3 id="iterSub2">Generate All Possible Combinations</h3>
+                <p>You can use the Itertools combinations() function to create all the possible combinations there are. For instance:</p>
+                <img src="assets/img/Code Snippets/iterExample2.png">
+                <p>Output:</p>
+                <img src="assets/img/Code Snippets/iterExample2Output.png">
+
+                
+                <h2 id="generFunc">Generators</h2>
+                <p>In Python, you can use a generator to create your own iterator function. A generator ‘special function’ that doesn’t return a single value. Instead, it returns an iterator object with a sequence of values instead of yielding values. Thus, in a generator function a yield keyword is used instead of return.</p>
+
+                
+                <p>Read full article at <a href="https://www.codingem.com/advanced-python-features/">Codingem</a></p>
+
+
+
+
+
+            
+            </div>
+
+            <footer class="article-footer">
+              <section class="article-copyright">
+                <span>Blog by Artturi Jalli</span>
+            </section>
+            </footer>
+          </article>
+
+        <!-- COPYRIGHT FOOTER -->
+        <footer class="site-footer">
+          <section class="copyright">© 2020 - 2022 Open Blog</section>
+        </footer>
+      </main>
+
+      <aside class="right-aside">
+            
+        <section class="widget archives">
+            <div class="widget-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"></path>
+                    <line x1="5" y1="9" x2="19" y2="9"></line>
+                    <line x1="5" y1="15" x2="19" y2="15"></line>
+                    <line x1="11" y1="4" x2="7" y2="20"></line>
+                    <line x1="17" y1="4" x2="13" y2="20"></line>
+                </svg>
+            </div>
+
+            <h2 class="widget-title section-title">Table of contents</h2>
+            
+            <div class="widget--toc">
+                <nav id="TableOfContents">
+                    <ol>
+                      <li><a href="#lambdaFunc">Lambda Functions</a></li>
+                      <li><a href="#mapFunc">Mapping</a></li>
+                      <li><a href="#filterFunc">Filtering</a></li>
+                      <li>
+                        <a href="#iterFunc">Itertools</a>
+                        <ol>
+                          <li><a href="#iterSub1">Generate Infinite Sequences with Itertools</a></li>
+                          <li><a href="#iterSub2">Generate All Possible Combinations</a></li>
+                        </ol>
+                      </li>
+                      <li><a href="#generFunc">Generators</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </section>
+      </aside>
+    </div>
+  </body>
+</html>
